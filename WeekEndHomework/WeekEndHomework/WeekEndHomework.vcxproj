@@ -129,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HW1\Homework1.h" />
+    <ClInclude Include="HW2\CardDeck.h" />
+    <ClInclude Include="HW2\ConstDefine.h" />
+    <ClInclude Include="HW2\Gamer.h" />
     <ClInclude Include="HW2\Homework2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

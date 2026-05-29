@@ -32,5 +32,14 @@
     <ClInclude Include="HW2\Homework2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HW2\CardDeck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HW2\Gamer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HW2\ConstDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
