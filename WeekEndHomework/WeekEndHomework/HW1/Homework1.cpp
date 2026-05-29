@@ -36,21 +36,16 @@ void	GetInput(FYearMonthDay& InYMD)
 				if (IsCorrectYMDChecker(InYMD))
 					return ;
 			}
-			else
-			{
-				printf("잘못 입럭하셨습니다\n");
-			}
 		}
-		else
-		{
-			printf("잘못 입럭하셨습니다\n");
-		}
+		printf("잘못 입럭하셨습니다\n");
 	}
 }
 
 bool	IsCorrectYMDChecker(const FYearMonthDay& InYMD)
 {
-	if (InYMD.Year && InYMD.Month && InYMD.Day)
+	if (InYMD.Year > 0 // 년도 확인
+		&& InYMD.Month > 0 && InYMD.Month < 13  // 월 확인
+		&& InYMD.Day > 0 && InYMD.Day < 32) // 일 확인
 	{
 		//	2월 아니면 그냥 확인
 		if (InYMD.Month != 2)
