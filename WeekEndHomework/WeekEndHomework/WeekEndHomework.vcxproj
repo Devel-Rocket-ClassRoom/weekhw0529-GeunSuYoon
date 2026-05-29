@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="HW1\Homework1.cpp" />
+    <ClCompile Include="HW2\CoordUtil.cpp" />
     <ClCompile Include="HW2\Homework2.cpp" />
     <ClCompile Include="WeekEndHomework.cpp" />
   </ItemGroup>
@@ -131,6 +132,7 @@
     <ClInclude Include="HW1\Homework1.h" />
     <ClInclude Include="HW2\CardDeck.h" />
     <ClInclude Include="HW2\ConstDefine.h" />
+    <ClInclude Include="HW2\CoordUtil.h" />
     <ClInclude Include="HW2\Gamer.h" />
     <ClInclude Include="HW2\Homework2.h" />
   </ItemGroup>

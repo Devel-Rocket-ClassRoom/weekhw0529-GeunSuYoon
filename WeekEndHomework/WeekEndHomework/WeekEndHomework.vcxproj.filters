@@ -24,6 +24,9 @@
     <ClCompile Include="HW2\Homework2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HW2\CoordUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HW1\Homework1.h">
@@ -39,6 +42,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HW2\ConstDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HW2\CoordUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
