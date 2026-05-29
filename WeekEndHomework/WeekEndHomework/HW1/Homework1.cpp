@@ -1,4 +1,4 @@
-#include "./Homework1.h"
+﻿#include "./Homework1.h"
 
 //extern const const char*	kDate[kTotalDate];
 
@@ -41,6 +41,7 @@ void	GetInput(FYearMonthDay& InYMD)
 	}
 }
 
+// 입력한 년월일이 유효한지 확인
 bool	IsCorrectYMDChecker(const FYearMonthDay& InYMD)
 {
 	if (InYMD.Year > 0 // 년도 확인
@@ -72,6 +73,7 @@ bool	IsCorrectYMDChecker(const FYearMonthDay& InYMD)
 	return (false);
 }
 
+// 입력한 년도 전년까지 모든 날짜 더하기
 int	GetTotalDayUntilYear(int InYear)
 {
 	int	ResultDay = 0;
@@ -90,6 +92,7 @@ int	GetTotalDayUntilYear(int InYear)
 	return (ResultDay);
 }
 
+// 윤년 판별기
 bool	IsLeapYearChecker(int InYear)
 {
 	const int	DivFour = 4;
@@ -103,6 +106,7 @@ bool	IsLeapYearChecker(int InYear)
 			));
 }
 
+// 입력한 달 전까지 모든 달의 날짜 더하기
 int	GetTotalDayUntilMonth(const FYearMonthDay& InYMD)
 {
 	int	ResultDay = 0;
